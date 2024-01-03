@@ -3,7 +3,7 @@
     height: 601px;
 }
 .bg-img{
-    background-image: linear-gradient(86deg, #4E1D9A 0.81%, rgba(78, 29, 154, 0.88) 14.54%, rgba(78, 29, 154, 0.88) 107.09%, rgba(78, 29, 154, 0.00) 115.34%) ,url('/assets/hero-background.png');
+    background-image: linear-gradient(86deg, #4E1D9A 0.81%, rgba(78, 29, 154, 0.88) 14.54%, rgba(78, 29, 154, 0.88) 107.09%, rgba(78, 29, 154, 0.00) 115.34%) ,url('/src/assets/hero-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -28,7 +28,7 @@
 .hero-person{
     width: 946px;
     height: 631px;
-    background: url('/assets/hero-person.png');
+    background: url('/src/assets/hero-person.png');
     background-repeat: no-repeat;
     flex-shrink: 0;
     margin-top: -20px;
