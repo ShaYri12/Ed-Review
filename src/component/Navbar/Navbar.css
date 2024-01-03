@@ -1,0 +1,66 @@
+.navbar{
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    z-index: 5;
+}
+
+.dropdown-item,
+.nav-link{
+    border-radius: 10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.dropdown-item:hover,
+.nav-link:hover{
+    background: rgba(79, 29, 154, 0.205) !important;
+    /* background: rgb(102, 0, 255) !important; */
+}
+
+.brand-name{
+    color: #54B435;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.brand-name:active{
+    color: #54B435 !important;
+}
+.brand-name:hover{
+    color: #54B435 !important;
+}
+.brand-name:focus{
+    color: #54B435 !important;
+}
+
+.nav-item .profile{
+
+    border-radius: 43px ;
+    border: 1px solid #54B435;
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.btn-post{
+    width: 173px;
+    height: 50px;
+    border-radius: 5px;
+    background: #67E776;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.btn-post:hover{
+    background: #49e65b;
+    transition: all 0.2s ease-in-out;
+}
+.btn-post:focus{
+    background: #2de642 !important;
+    transition: all 0.2s ease-in-out;
+}

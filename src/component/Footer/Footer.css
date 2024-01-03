@@ -1,0 +1,21 @@
+.footer-section{
+    background: #2C272E;
+}
+
+Link{
+    text-decoration: none;
+}
+
+.footer-heading{
+    color:#67E776;
+}
+
+.footer-columns p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fab{
+    color:#67E776;
+}

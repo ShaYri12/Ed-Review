@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.common-heading{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 117%; /* 46.8px */    
+}
+
+

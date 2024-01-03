@@ -1,0 +1,102 @@
+.hero{
+    position: relative;
+    height: 601px;
+}
+.bg-img{
+    background-image: linear-gradient(86deg, #4E1D9A 0.81%, rgba(78, 29, 154, 0.88) 14.54%, rgba(78, 29, 154, 0.88) 107.09%, rgba(78, 29, 154, 0.00) 115.34%) ,url('/assets/hero-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 601px;
+    background-color: aqua;
+    flex-shrink: 0;
+}
+
+.hero-text{
+    padding-left: 100px;
+    display: flex;
+    z-index: 1;
+    position:absolute;
+    bottom:0;
+    top:0;
+}
+
+.hero-section{
+    margin-top: 5rem!important;
+}
+
+.hero-person{
+    width: 946px;
+    height: 631px;
+    background: url('/assets/hero-person.png');
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin-top: -20px;
+    position:absolute;
+    right:0;
+    top:0;
+    margin-right: -60px !important;
+}
+
+
+h1{
+    color: #FFF;
+    font-weight: 700;
+    line-height:46.8px;
+}
+
+.h1-other{
+    color: #67E776;
+    font-weight: 700;
+    line-height:46.8px;
+}
+
+.hero-para{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.btn-course::before {
+    content: '';
+    display: inline-block;
+    height: 75%; /* Adjust the height as needed */
+    width: 1px; /* Adjust the width of the border */
+    background-color: #ccc; /* Adjust the color of the border */
+    margin-right:10px;
+    margin-left:-13px;
+    border-color: #ccc !important;
+}
+
+
+.btn-course:focus,
+.btn-course:active {
+    border-color: #ccc !important; /* Adjust the border color when the button is pressed */
+    color: #333 !important; /* Adjust the text color when the button is pressed */
+  }
+
+.btn-course{
+    color: #000;
+    
+}
+
+.btn-search{
+    max-width: 117px !important;
+    background: #67E776;
+    height: 64px;
+    border:none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-search:hover{
+    background: #49e65b;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+.btn-search:focus{
+    background: #2de642 !important;
+    color: #000 !important;
+}

@@ -1,0 +1,48 @@
+.divs{
+    font-size:40px;
+    text-transform:uppercase;
+    white-space:nowrap;
+    padding:0 6rem;
+    animation: move-rtl 6000ms linear infinite;
+}
+
+@keyframes move-rtl{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+
+.profile-img{
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.profile-name{
+    width: 130px;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 23.76px;
+}
+
+.star{
+    width: 20px;
+    flex-shrink: 0;
+    margin-right: 4px;
+}
+
+.card-body{
+    width: 393px;
+    flex-shrink: 0;
+}
+
+.review{
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 148.5%;
+}
+

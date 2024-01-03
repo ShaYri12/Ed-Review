@@ -1,0 +1,22 @@
+.category-box{
+    width: 287px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(78, 29, 154, 0.13);
+    background-color: #FFF;
+}
+
+.img-circle{
+    width: 95px ;
+    height: 95px;
+    flex-shrink: 0;
+    background-color: rgba(78, 29, 154, 0.09);
+    border-radius: 50%;
+    fill: rgba(78, 29, 154, 0.09);
+}
+
+.category-img{
+    width: 45px;
+    height: 45px;
+}
