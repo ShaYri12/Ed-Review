@@ -11,50 +11,50 @@ function Category_section() {
             <div className="row categories g-3 d-flex align-item-center justify-content-center mb-3">
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box rounded-2 p-5 d-flex flex-column align-item-center justify-content-center text-center ">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/clg&uni.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/clg&uni.png"/>
                     </div>
                     <h6 className="pt-3">College & Universities</h6>
                 </Link>
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box p-5 d-flex flex-column align-item-center justify-content-center text-center">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/courses&classes.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/courses&classes.png"/>
                     </div>
                     <h6 className="pt-3">Courses & Classes</h6>
                 </Link>
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box p-5 d-flex flex-column align-item-center justify-content-center text-center">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/educ&services.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/educ&services.png"/>
                     </div>
                     <h6 className="pt-3">Educational Services</h6>
                 </Link>
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box p-5 d-flex flex-column align-item-center justify-content-center text-center">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/language.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/language.png"/>
                     </div>
                     <h6 className="pt-3">Language Learning</h6>
                 </Link>
 
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box rounded-2 p-5 d-flex flex-column align-item-center justify-content-center text-center ">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/music&theater.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/music&theater.png"/>
                     </div>
                     <h6 className="pt-3">Music & Theater Classes</h6>
                 </Link>
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box p-5 d-flex flex-column align-item-center justify-content-center text-center">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/vocational.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/vocational.png"/>
                     </div>
                     <h6 className="pt-3">Vocational Training Center</h6>
                 </Link>
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box p-5 d-flex flex-column align-item-center justify-content-center text-center">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/clg&uni.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/clg&uni.png"/>
                     </div>
                     <h6 className="pt-3">College & Universties</h6>
                 </Link>
                 <Link className="nav-link mx-3 col-md-3 col-lg-2 bg-white category-box p-5 d-flex flex-column align-item-center justify-content-center text-center">
                     <div className="img-circle mx-auto d-flex align-item-center justify-content-center text-center">
-                        <img className="category-img img-fluid my-auto" src="/src/assets/courses&classes.png"/>
+                        <img className="category-img img-fluid my-auto" src="/public/assets/courses&classes.png"/>
                     </div>
                     <h6 className="pt-3">College & Universities</h6>
                 </Link>

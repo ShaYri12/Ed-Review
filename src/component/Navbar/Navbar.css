@@ -16,6 +16,7 @@
 .nav-link:hover{
     background: rgba(79, 29, 154, 0.205) !important;
     /* background: rgb(102, 0, 255) !important; */
+    transition: all 0.2s ease-in-out;
 }
 
 .brand-name{
@@ -64,3 +65,9 @@
     background: #2de642 !important;
     transition: all 0.2s ease-in-out;
 }
+
+@media (min-width:992px) {
+    .dropdown {
+        margin-right:2px !important;
+    }
+  }

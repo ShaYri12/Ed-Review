@@ -3,7 +3,7 @@
     height: 601px;
 }
 .bg-img{
-    background-image: linear-gradient(86deg, #4E1D9A 0.81%, rgba(78, 29, 154, 0.88) 14.54%, rgba(78, 29, 154, 0.88) 107.09%, rgba(78, 29, 154, 0.00) 115.34%) ,url('/src/assets/hero-background.png');
+    background-image: linear-gradient(86deg, #4E1D9A 0.81%, rgba(78, 29, 154, 0.88) 14.54%, rgba(78, 29, 154, 0.88) 107.09%, rgba(78, 29, 154, 0.00) 115.34%) ,url('/public/assets/hero-background.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -28,7 +28,7 @@
 .hero-person{
     width: 946px;
     height: 631px;
-    background: url('/src/assets/hero-person.png');
+    background: url('/public/assets/hero-person.png');
     background-repeat: no-repeat;
     flex-shrink: 0;
     margin-top: -20px;
@@ -57,29 +57,150 @@ h1{
     font-weight: 500;
 }
 
-
-.btn-course::before {
-    content: '';
-    display: inline-block;
-    height: 75%; /* Adjust the height as needed */
-    width: 1px; /* Adjust the width of the border */
-    background-color: #ccc; /* Adjust the color of the border */
-    margin-right:10px;
-    margin-left:-13px;
-    border-color: #ccc !important;
+.btn-course:focus,
+.btn-course:active,
+.btn-course:hover
+{
+    border-color: #ccc !important; /* Adjust the border color when the button is pressed */
+    border-left-width: 3px;
+    color: #333 !important; /* Adjust the text color when the button is pressed */
+    transition: all 0.15s ease-in;
 }
 
+.btn-course::after {
+    content: ''; /* Add an empty content pseudo-element */
+    display: inline-block;
+    width: 10px; /* Adjust the width to control the gap */
+    margin-left: 35px;
+}
 
-.btn-course:focus,
-.btn-course:active {
-    border-color: #ccc !important; /* Adjust the border color when the button is pressed */
-    color: #333 !important; /* Adjust the text color when the button is pressed */
+.form-control-divider {
+    position: absolute;
+    height: 50%;
+    width: 2px;
+    background-color: #ccc;
+    left: calc(50.7% + 3.1rem);
+    top: 25%;
+    z-index: 1;
+}
+
+.has-search .form-control {
+    position: relative;
+    padding-left: 3.2rem;
+    height: 64px;
+    z-index: 1;
   }
 
-.btn-course{
-    color: #000;
-    
+
+.has-search .form-control-icon {
+    max-width:200px !important;
+    position: absolute;
+    z-index: 2;
+    left: 1.5rem !important;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.7;
+  }
+
+  
+  @media (max-width:1110px) {
+    .has-search .form-control {
+        width: 50%; /* Make the form-control take up full width */
+        height: 64px !important;
+        border-right: none; /* Remove the right border */
+    }
+
+    .has-search .form-control-icon {
+        top: 24%;
+      }
+
+    .btn-search {
+        width: 100%; /* Make the btn-search take up full width */
+        margin-top: 10px; /* Add some top margin for spacing */
+        margin-right: 500px;
+        margin-left: 0px;
+        
+    }
+    .btn-search-box {
+        margin-left:0 !important;
+    }
+    .btn-course {
+        width: auto; /* Reset width to auto */
+        height: 64px !important;
+        margin-top: 0; /* Remove top margin */
+        margin-right: 0px !important;
+        padding-left:14px !important;
+    }
+    .btn-course::after {
+        margin-left: 10px;
+    }
+    .form-control-divider{
+        display: none;
+    }
+  }
+
+@media (max-width:562px) {
+    .hero-text{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+        
+    }
 }
+@media (max-width:768px) {
+    .has-search .form-control {
+        width: 30%; /* Make the form-control take up full width */
+        height: 64px !important;
+        border-right: none; /* Remove the right border */
+    }
+    .btn-search-box {
+        margin-left:0 !important;
+    }
+    .btn-course {
+        width: auto; /* Reset width to auto */
+        height: 64px !important;
+        margin-top: 0; /* Remove top margin */
+        margin-right: 100px !important;
+        padding-left:14px !important;
+    }
+  }
+
+@media (max-width:707px) {
+    .btn-course {
+        margin-right: 100px !important;
+    }
+}
+@media (max-width:600px) {
+    .btn-course {
+        margin-right: 75px !important;
+    }
+}
+
+@media (max-width:546px) {
+    .form-control {
+        margin-right: 20px !important;
+    }
+    .btn-course {
+        margin-right: 275px !important;
+    }
+    
+    .has-search .form-control-icon {
+        top: 15%;
+      }
+}
+
+@media (max-width:546px) {
+    .has-search .form-control {
+        width: 100% !important;
+        border-radius: 5px !important;
+    }
+    
+    .btn-course{
+        border-radius: 5px !important;
+        margin-top: 10px;
+        
+    }
+
+  }
 
 .btn-search{
     max-width: 117px !important;
