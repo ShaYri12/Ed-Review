@@ -78,10 +78,10 @@ function Courses_section() {
                 </div>
                 <div className="card-extra d-flex mt-2 pt-2 ms-3 align-item-center justify-content-between">
                   <div className="d-flex">
-                    <img className="location img-fluid mb-auto"  src="require/public/assets/location.png" alt="..."/> <span className=" px-2 pe-3 coin-text ">{course.location}</span>
+                    <img className="location img-fluid mb-auto"  src="/public/assets/location.png" alt="..."/> <span className=" px-2 pe-3 coin-text ">{course.location}</span>
                   </div>
                   <div className="d-flex">
-                    <img className="star img-fluid mb-auto"  src="require/public/assets/star-2.png" alt="..."/> <span className="pe-2 coin-text ">{course.stars}</span>
+                    <img className="star img-fluid mb-auto"  src="/public/assets/star-2.png" alt="stars"/> <span className="pe-2 coin-text ">{course.stars}</span>
                     <span className=" pe-3 coin-text ">({course.reviews})</span>
                   </div>
                 </div>
