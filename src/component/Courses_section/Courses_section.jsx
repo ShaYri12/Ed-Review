@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
       style={{ ...style, display: "block", background: "red" }}
       onClick={onClick}
     >
-      <img className="slide-right" src="/public/assets/slide-right.png" alt=".."/>
+      <img className="slide-right" src="public/assets/slide-right.png" alt=".."/>
     </div>
 
   );
