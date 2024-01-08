@@ -2,7 +2,7 @@
   const Courses_data=[
     {
         id:"1",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -11,7 +11,7 @@
     },
     {
         id:"2",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -20,7 +20,7 @@
     },
     {
         id:"3",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -29,7 +29,7 @@
     },
     {
         id:"4",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -38,7 +38,7 @@
     },
     {
         id:"5",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -47,7 +47,7 @@
     },
     {
         id:"6",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -56,7 +56,7 @@
     },
     {
         id:"7",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -65,7 +65,7 @@
     },
     {
         id:"8",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",
@@ -74,7 +74,7 @@
     },
     {
         id:"9",
-        img:"/public/assets/courses_1.png",
+        img:"/assets/courses_1.png",
         main_heading:"Data Science",
         sub_heading:"Acmegrade",
         location:"Mumbai,India",

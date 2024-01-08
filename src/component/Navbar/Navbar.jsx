@@ -25,7 +25,7 @@ function Navbar() {
         </li>
         <li className="nav-item dropdown my-auto mx-auto">
           <Link className="nav-link " to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="../public/assets/bell icon.svg" className="img-fluid rounded-top" alt="notification"/>
+            <img src="assets/bell icon.svg" className="img-fluid rounded-top" alt="notification"/>
           </Link>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="#">Some Notifications</Link></li>
@@ -33,7 +33,7 @@ function Navbar() {
         </li> 
         <li className="nav-item dropdown my-auto mx-auto">
           <a className="nav-link dropdown-toggle justify-content-start" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="../public/assets/profile.png" className="img-fluid profile" alt="Profile"/>
+            <img src="assets/profile.png" className="img-fluid profile" alt="Profile"/>
           </a>
           <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="#">My Review</Link></li>

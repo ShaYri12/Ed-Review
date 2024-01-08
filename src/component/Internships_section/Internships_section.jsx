@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
       style={{ ...style, display: "block", background: "red" }}
       onClick={onClick}
     >
-      <img className="slide-right" src="/public/assets/slide-right.png" alt=".."/>
+      <img className="slide-right" src="/assets/slide-right.png" alt=".."/>
     </div>
 
   );
@@ -26,7 +26,7 @@ function SamplePrevArrow(props) {
       style={{ ...style, display: "block", background: "green" }}
       onClick={onClick}
     >
-    <img className="slide-left" src="/public/assets/slide-left.png" alt=".."/>
+    <img className="slide-left" src="/assets/slide-left.png" alt=".."/>
     </div>
   );
 }
@@ -74,18 +74,18 @@ function Internships_section() {
                 <h6 className="text-heading  d-flex  justify-content-start pe-3">{internships.main_heading}</h6>
                 <div className="extra-data d-flex justify-content-between">
                   <div className="icons d-flex">
-                    <img className="icon img-fluid " src="/public/assets/briefcase.png" alt="..."/>
+                    <img className="icon img-fluid " src="/assets/briefcase.png" alt="..."/>
                     <span className="icon-text px-2 pe-3">{internships.company}</span>
                   </div>
                   <div className="icons d-flex">
-                    <img className="icon img-fluid "  src="/public/assets/calendar.png" alt="..."/>
+                    <img className="icon img-fluid "  src="/assets/calendar.png" alt="..."/>
                     <span className="icon-text px-2 pe-3">{internships.time}</span>
                   </div>
                 </div>  
               </div>
             </div>
           <div className="coins d-flex mt-2 pt-2 ms-3 align-item-center">
-            <img className="coin img-fluid "  src="/public/assets/dollar.png" alt="..."/> <span className=" px-2 pe-3 coin-text ">{internships.coins}</span>
+            <img className="coin img-fluid "  src="/assets/dollar.png" alt="..."/> <span className=" px-2 pe-3 coin-text ">{internships.coins}</span>
           </div>
           <hr className="divider mb-auto"/>
           <div className="d-flex mx-auto my-2 align-item-center justify-content-between">

@@ -30,7 +30,7 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -38,8 +38,8 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -47,9 +47,9 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -57,10 +57,10 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="public//assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -68,11 +68,11 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -104,7 +104,7 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -112,8 +112,8 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -121,9 +121,9 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -131,10 +131,10 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
@@ -142,11 +142,11 @@ function Brows_reviews() {
                               return (
                                 <>
                                   <div className='stars d-flex'>
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
-                                    <img className="star img-fluid" src="/public/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
+                                    <img className="star img-fluid" src="/assets/star.png" alt="Star" />
                                   </div>
                                 </>
                               );
