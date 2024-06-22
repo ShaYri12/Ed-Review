@@ -97,23 +97,22 @@ h1{
     position: absolute;
     z-index: 2;
     left: 1.5rem !important;
-    top: 50%;
+    top: 32px !important;
     transform: translateY(-50%);
     opacity: 0.7;
   }
 
   
   @media (max-width:1110px) {
+    .search-area{
+        flex-direction: column !important;
+    }
+
     .has-search .form-control {
         width: 50%; /* Make the form-control take up full width */
         height: 64px !important;
         border-right: none; /* Remove the right border */
     }
-
-    .has-search .form-control-icon {
-        top: 24%;
-      }
-
     .btn-search {
         width: 100%; /* Make the btn-search take up full width */
         margin-top: 10px; /* Add some top margin for spacing */
@@ -126,7 +125,6 @@ h1{
     }
     .btn-course {
         width: auto; /* Reset width to auto */
-        height: 64px !important;
         margin-top: 0; /* Remove top margin */
         margin-right: 0px !important;
         padding-left:14px !important;
@@ -139,68 +137,20 @@ h1{
     }
   }
 
-@media (max-width:562px) {
+@media (max-width:846px) {
     .hero-text{
-        padding-left: 50px !important;
-        padding-right: 50px !important;
-        
-    }
-}
-@media (max-width:768px) {
-    .has-search .form-control {
-        width: 30%; /* Make the form-control take up full width */
-        height: 64px !important;
-        border-right: none; /* Remove the right border */
-    }
-    .btn-search-box {
-        margin-left:0 !important;
-    }
-    .btn-course {
-        width: auto; /* Reset width to auto */
-        height: 64px !important;
-        margin-top: 0; /* Remove top margin */
-        margin-right: 100px !important;
-        padding-left:14px !important;
-    }
-  }
-
-@media (max-width:707px) {
-    .btn-course {
-        margin-right: 100px !important;
-    }
-}
-@media (max-width:600px) {
-    .btn-course {
-        margin-right: 75px !important;
+        padding: 0 50px;
+        width: 100%;
     }
 }
 
-@media (max-width:546px) {
-    .form-control {
-        margin-right: 20px !important;
+
+
+@media (max-width: 426px) {
+    .hero-text{
+        padding: 0 25px;
     }
-    .btn-course {
-        margin-right: 275px !important;
-    }
-    
-    .has-search .form-control-icon {
-        top: 15%;
-      }
 }
-
-@media (max-width:546px) {
-    .has-search .form-control {
-        width: 100% !important;
-        border-radius: 5px !important;
-    }
-    
-    .btn-course{
-        border-radius: 5px !important;
-        margin-top: 10px;
-        
-    }
-
-  }
 
 .btn-search{
     max-width: 117px !important;
